@@ -1,0 +1,29 @@
+extends ./lyout/index
+
+block slider
+        .slider
+                h1 Rio de Janeiro
+                em aventura
+
+block contenido
+        main.container.mt-5
+                h2.text-center.mb-5 Sobre Nosotros
+                .row.mb-5
+                        .col-md-6
+                            p Lorem etur adipisicing elit. Reiciendis, laboriosam pariatur mollitia dolore, repellat atque suscipit ipsum optio itaque alias sint obcaecati unde! Aperiam ab excepturi sequi omnis repudiandae officia.Asperiores reprehenderit culpa neque fugit, deleniti facilis facere provident, vitae itaque impedit quia, eius animi deserunt quo optio doloribus numquam odit amet necessitatibus rerum voluptatem. Vel est sunt illo facilis?
+                            p Lorem! Aperiam reprehenderit culpa neque fugit, deleniti facilis facere provident, vitae itaque impedit quia, eius animi deserunt quo optio doloribus numquam odit amet necessitatibus rerum voluptatem. Vel est sunt illo facilis? 
+                        .col-md-6
+                            img(src="/img/inicio_nosotros.jpg", alt="imagen nosotros" class="img-fluid")
+                include ./lyout/bloque_viajes
+        .descuento
+          .container 
+            .row 
+              .col-md-5 
+                 .contenido 
+                    h3 5% de Descuento 
+                    p.titulo Viaje a Canada
+                    p.fecha 30 de Mayo de 2023 - 15 de Abril de 2023
+                    p.precio $3,000 USD
+        .container
+          h2.mt-5.text-center Testimoniales
+                include ./lyout/bloque_testimoniales
